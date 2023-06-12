@@ -5,7 +5,7 @@
             <div class="grid_game" >
                 <div  v-for="(juego, index) in juegos" :key="index">
                     <p class="mb-0">{{juego.name}}</p>
-                    <img class="mb-4" @click="redirect(juego.id)" :src="juego.image" alt="img_game">
+                    <img class="img-style" @click="redirect(juego.id)" :src="juego.image" alt="img_game">
                 </div>
             </div>
         </div>
@@ -81,18 +81,18 @@ export default {
         grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
 
     }
-    img{
+    .img-style{
         width: 150px;
         height: 150px;
         border-radius: 50%;
         border:2px solid white;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        object-fit: cover;
     }
     .btn{
         color:white;
         margin-bottom: 100px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    }
-    .mb-4{
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     }
 </style>
