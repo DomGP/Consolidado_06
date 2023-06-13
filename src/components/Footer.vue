@@ -1,9 +1,11 @@
 <template>
     <div>
         <footer>
-            <router-link to="/"><i class="fa-solid fa-house"></i></router-link>
-            | <router-link to="/juegos"><i class="fa-solid fa-gamepad"></i></router-link> |
-            <router-link to="/contacto"><i class="fa-solid fa-envelope"></i></router-link>
+            <router-link to="/"><i class="fa-solid fa-house" style="color: #ffffff;"></i></router-link>
+            | <router-link to="/juegos"><i class="fa-solid fa-gamepad" style="color: #ffffff;"></i></router-link> |
+            <router-link to="/contacto"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></router-link>
+            <router-link><i class="fa-solid fa-house-user" style="color: #ffffff;"></i></router-link>
+            
         </footer>
     </div>
 </template>
@@ -34,7 +36,7 @@ export default {
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: black;
+        background-color:black;
         padding: 15px;
         box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.3);
         bottom: 0;

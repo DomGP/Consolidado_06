@@ -3,7 +3,7 @@
         <Banner/>
         <div class="container_grid">
         <div>
-            <h2>Bienvenido</h2>
+            <h2>Bienvenido</h2> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sequi, exercitationem quasi quidem dolores eos velit eligendi ea reprehenderit recusandae quisquam quaerat tenetur consequatur perspiciatis quam mollitia cupiditate, unde dolorum.
             Rerum fuga praesentium labore sint eius nostrum eaque voluptates qui porro sit. Expedita voluptates consectetur modi beatae quae saepe? Illo praesentium laboriosam rerum vel. Vero illo nihil quia! Labore, nihil.
             Quod laborum repellat molestiae beatae totam ab itaque, adipisci quo voluptatem inventore accusantium! Possimus optio omnis dolorem maxime! Neque rem fugit eum beatae vitae, ab praesentium iusto porro cum odit.</p>
