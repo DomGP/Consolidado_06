@@ -1,29 +1,9 @@
-# https://consolidado-06.netlify.app/
-## https://consolidado-06.netlify.app/
-### https://consolidado-06.netlify.app/
-#### https://consolidado-06.netlify.app/
-
-# consolidado_06
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Consolidado Módulo 06 - Sitio web con API de videojuegos
+## Build: https://consolidado-06.netlify.app/
+## Descripción: Desarrollo de sitio web utilizando API de videojuegos con Vue y Vuetify y Router.
+## Detalles:
+### · Home con uso de Router para distintas vistas
+### · Vista de Juegos donde se utiliza la API para enlistar videojuegos
+### · Vista de detalle de cada juego con información específica
+### · Vista Contacto con ejemplo de Formulario
+### · Vista comodín de error de ruta
